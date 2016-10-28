@@ -1,0 +1,10 @@
+<QueryList>
+  <Query Id="0" Path="Application">
+    <Select Path="Application">
+      *[
+        EventData[Data and (Data="LiveKernelEvent" or Data="BlueScreen")] and
+        System[TimeCreated[timediff(@SystemTime) &lt;= 10000]]
+      ]
+    </Select>
+  </Query>
+</QueryList>
