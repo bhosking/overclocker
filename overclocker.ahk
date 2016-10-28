@@ -51,13 +51,6 @@ global 3dmark_pass_x1 := 630
 global 3dmark_pass_x2 := 670
 global 3dmark_pass_y := 210
 
-global 3dmark_fail_x1 := 670
-global 3dmark_fail_x2 := 700
-global 3dmark_fail_y := 210
-
-global 3dmark_user_cancel_x := 1333
-global 3dmark_user_cancel_y := 91
-
 global 3dmark_benchmarks_x := 910
 global 3dmark_benchmarks_y := 23
 
@@ -66,8 +59,6 @@ global 3dmark_firestrike_y := 715
 
 global 3dmark_benchrun_x := 1197
 global 3dmark_benchrun_y := 311
-
-global 3dmark_benchmark_seconds := 428
 
 global powershell_name := "Windows PowerShell"
 
