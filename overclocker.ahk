@@ -60,7 +60,7 @@ global 3dmark_firestrike_y := 715
 global 3dmark_benchrun_x := 1197
 global 3dmark_benchrun_y := 311
 
-global powershell_name := "Windows PowerShell"
+global powershell_name := "Administrator: Windows PowerShell"
 
 global stopscript = 0
 
